@@ -56,6 +56,7 @@ To use the output to help you remove duplicates, run this
 $ egrep "(^$|^MATCH:)" /tmp/dupes.txt | sed -e 's/^[^"]*//' > /tmp/dupes.raw
 ```
 and edit `/tmp/dupes.raw` to REMOVE ALL FILES **YOU WANT TO KEEP**.  
+
 Once you're confident that the only files left are the ones you want to disappear, which may resemble my edits --
 ```
 # file /tmp/dupes.raw
@@ -72,9 +73,9 @@ Once you're confident that the only files left are the ones you want to disappea
 $ sed -e 's/^"/rm "/' /tmp/dupes.raw
 rm "/mnt/restore/0000000238.MOV"
 
-rm "/mnt/restore/pic-00000019238.jpg"
+rm "/mnt/restore/PIC-00000019238.JPG"
 
-rm "/home/admin/work_files/2019/best_app_evarrr/go/pkg/mod/github.com/go-sql-driver/mysql@v1.5.0/rows.go"
+rm "/home/admin/work_files/2019/o/go/pkg/mod/github.com/go-sql-driver/mysql@v1.5.0/rows.go"
 ```
 If the above `rm` commands look good to you, complete the dedupliation:
 ```
