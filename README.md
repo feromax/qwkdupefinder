@@ -34,7 +34,7 @@ These steps will use a prepacked golang v1.14 container image to build the binar
 	```
 	./bin/qwkdupfinder -h
 	```
-## Sample Output
+## Sample Session
 ```
 # saves a copy of the output to /tmp/dupes.txt while showing it live in your terminal session
 $ ~/bin/qwkdupfinder /mnt/media /mnt/restore /home/admin/go /home/admin/work_files/ | tee /tmp/dupes.txt
