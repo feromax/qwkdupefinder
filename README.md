@@ -55,7 +55,8 @@ To use the output to help you remove duplicates, run this
 ```
 $ egrep "(^$|^MATCH:)" /tmp/dupes.txt | sed -e 's/^[^"]*//' > /tmp/dupes.raw
 ```
-and edit `/tmp/dupes.raw` to REMOVE ALL FILES **YOU WANT TO KEEP.**.  Once you're confident that the file only has files you want to see disappear, which may resemble my edits --
+and edit `/tmp/dupes.raw` to REMOVE ALL FILES **YOU WANT TO KEEP**.  
+Once you're confident that the only files left are the ones you want to disappear, which may resemble my edits --
 ```
 # file /tmp/dupes.raw
 
