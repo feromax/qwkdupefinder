@@ -45,10 +45,10 @@ DUPLICATES REPORT ON BASIS OF FILESIZE AND SAMPLING CONTENTS -- ✓ indicates ve
 MATCH:1  	SIZE:1153525978	"/mnt/media/home-movies/298329884.mov"
 MATCH:1  	SIZE:1153525978	"/mnt/restore/0000000238.MOV"
 
-MATCH:2         SIZE:2335727    "/mnt/media/pics//IMAG0107.jpg"
-MATCH:2         SIZE:2335727    "/mnt/restore/pic-00000019238.jpg"
+MATCH:2         SIZE:2335727    "/mnt/media/pics/IMAG0107.jpg"
+MATCH:2         SIZE:2335727    "/mnt/restore/PIC-00000019238.JPG"
 
-MATCH:3 ✓       SIZE:4764       "/home/admin/work_files/2019/best_app_evarrr/go/pkg/mod/github.com/go-sql-driver/mysql@v1.5.0/rows.go"
+MATCH:3 ✓       SIZE:4764       "/home/admin/work_files/2019/o/go/pkg/mod/github.com/go-sql-driver/mysql@v1.5.0/rows.go"
 MATCH:3 ✓       SIZE:4764       "/home/admin/go/src/github.com/go-sql-driver/mysql/rows.go"
 ```
 To use the output to help you remove duplicates, run this
@@ -62,9 +62,9 @@ Once you're confident that the only files left are the ones you want to disappea
 
 "/mnt/restore/0000000238.MOV"
 
-"/mnt/restore/pic-00000019238.jpg"
+"/mnt/restore/PIC-00000019238.JPG"
 
-"/home/admin/work_files/2019/best_app_evarrr/go/pkg/mod/github.com/go-sql-driver/mysql@v1.5.0/rows.go"
+"/home/admin/work_files/2019/0/go/pkg/mod/github.com/go-sql-driver/mysql@v1.5.0/rows.go"
 
 ```
 -- run this and re-read your list of files that are about to go away forever:
