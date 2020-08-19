@@ -77,7 +77,7 @@ rm "/mnt/restore/PIC-00000019238.JPG"
 
 rm "/home/admin/work_files/2019/o/go/pkg/mod/github.com/go-sql-driver/mysql@v1.5.0/rows.go"
 ```
-If the above `rm` commands look good to you, complete the dedupliation:
+If the above `rm` commands look good to you, complete the deduplication:
 ```
 # sed -e 's/^"/rm "/' /tmp/dupes.raw | sh
 ```
